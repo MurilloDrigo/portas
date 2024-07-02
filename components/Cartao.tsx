@@ -4,7 +4,7 @@ interface CartaoProps{
     bgcolor?: string
     children: any
 }
-export default function Cartao(props){
+export default function Cartao(props: CartaoProps){
     return(
         <div className={styles.cartao}
             style={{
